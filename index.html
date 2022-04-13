@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+    
+        <div class="info">
+
+            <!-- <h2>Резюме</h2> -->
+            <img src="avatar.jpg"  alt="Бостриков Егор" class="avatar">
+            
+            <div class="info-text">
+                <h1> Бостриков Егор </h1>
+                
+                <p>Я начал учить курс по <strong> Html </strong> и <strong> Css </strong> от Владилена Минина. Дальше планирую изучать JavaScript и устроиться на работу junior разработчиком. <strong><em> Владилен, спасибо большое за курс!!!</em></strong></p>
+                <p> Моя цель - изучить JS до июля и устроиться в июле на работу.</p>
+            
+                <!-- strong - делает текст жирным -->
+                <!-- em - наклоняет текст -->
+                <!-- с помощью <p> создается абзац, потом закрывется </p> -->
+            
+                <hr> 
+                <!-- <hr>  - это горизонтальная черта -->
+            
+                <h3>Список моих соцсетей:</h3>
+                <a href="https://vk.com/egorka_2109" target="_blanck" >Вконтакте</a>
+                |
+                <a href="https://t.me/blackst0ne1" target="_blanck" >Telegram</a>
+                <!-- атрибут target для того чтобы ссылка открывалась в новой вкладке-->
+                <!-- специальное значение "_blanck" указывает браузеру что ссылка открывается в новой вкладке-->
+            </div>
+        </div>
+
+            <hr>
+
+        <div class="card bg-green">
+            <h3>Мои хобби:</h3>
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>Катание на велосипеде</li>
+                <li>Просмотр видео на YouTube</li>
+                <li>Чтение книг</li>
+                <li>Медитации</li>
+            </ol>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мой опыт работы</h2>
+
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Организация</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>На крыше</td>
+                        <td>Официант</td>
+                        <td>2018-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Декатлон</td>
+                        <td>Менеджер торгового сектора</td>
+                        <td>2020-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Ак Барс Банк</td>
+                        <td>Эксперт</td>
+                        <td>2022-сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>  
+        <br>
+
+
+    
+
+    <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+
+        <div class="form-group">
+            <label for="name">Введите ваше имя:</label>  
+            <input type="text" id="name" placeholder="ваше имя">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Введите ваш email:</label>
+            <input type="email" id="email" placeholder="ваш email">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Ваше сообщение: </label>
+            <textarea id="message" cols="35" rows="5" placeholder="Ваше сообщение..."></textarea>
+        </div>
+    </div>
+        <button class="btn" type="submit">Отправить!</button>
+    </form>
+    </div>
+</body>
+</html>
